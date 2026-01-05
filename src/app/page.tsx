@@ -11,16 +11,20 @@ import {Event} from "../components/event";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Exist />
-      <Focus />
-      <Impact />
-      <Event />
-      <Program />
-      <GetInvolved />
+    <div className="relative"> {/* Creates a base stacking context */}
+      <header className="relative z-[9999]"> 
+        <Navbar />
+      </header>
+      <main className="relative z-0">
+        <Hero />
+        <Exist />
+        <Focus />
+        <Impact />
+        <Event />
+        <Program />
+        <GetInvolved />
+      </main>
       <Footer />
-    </>
+    </div>
   );
 }

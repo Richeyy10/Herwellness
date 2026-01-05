@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-[url('../assets/about.jpg')] bg-blend-multiply bg-cover bg-center">
-      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/100 to-transparent w-full mx-auto px-6 pt-30 md:pt-60 text-center">
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/100 to-transparent w-full mx-auto px-6 pt-30 md:pt-60 text-center antialiased">
         <h1 className="text-3xl sm:text-6xl font-bold text-white mb-6 leading-tight">
           Empowering<span className="text-[#6A1B9A]"> Girls. </span>
           Supporting<span className="text-[#C2185B]"> Women. </span>
