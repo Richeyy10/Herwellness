@@ -8,7 +8,7 @@ type ProgramProps = {
 export default function Program({ className = "" }) {
     return (
         <section
-            className={`w-[80%] mx-auto mb-8 bg-gray-800 rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row items-stretch ${className}`}
+            className={`w-[80%] mx-auto mb-8 bg-[#C2185B] rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row items-stretch ${className}`}
             aria-labelledby="featured-program-title"
         >
             <div className="p-6 md:p-8 flex-1">
@@ -20,12 +20,12 @@ export default function Program({ className = "" }) {
 
                 <h2
                     id="featured-program-title"
-                    className="mt-4 text-2xl font-semibold text-gray-900 dark:text-gray-100 leading-tight"
+                    className="mt-4 text-2xl font-semibold text-black leading-tight"
                 >
                     Flow With Confidence Campaign
                 </h2>
 
-                <p className="mt-3 w-[80%] text-gray-600 dark:text-gray-300">
+                <p className="mt-3 w-[80%] text-black dark:text-black">
                     A school-based menstrual health initiative equipping girls with
                     non-reusable pads, wellness knowledge, and self-esteem tools.
                 </p>
