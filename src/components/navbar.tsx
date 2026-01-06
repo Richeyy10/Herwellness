@@ -33,7 +33,7 @@ export default function Navbar() {
             : false;
 
     return (
-        <header className="w-full fixed inset-0 z-[9999] left-0 right-0 bg-white/95 border-b border-gray-200">
+        <header className="w-full inset-0 z-[9999] left-0 right-0 border-b border-gray-200">
             <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-32 items-center justify-between">
                     <div className="flex items-center gap-3">
